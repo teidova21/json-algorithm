@@ -1,0 +1,9 @@
+{
+  "//":"test loop",
+  "$x":0,
+  "do":{
+    "$x":{"sum":["$x",1]},
+    "print":{"join":[{"str":"$x"}," seconds passed"]},
+    "break": null
+  }
+}
